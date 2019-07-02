@@ -5,14 +5,6 @@
  * 
  */
 
-interface inter1{
-    void add(int a, int  b);
-}
-
-interface inter2{
-    void sub(int a, int  b);
-}
-
 class interfacepractice implements inter1,inter2
 {
     public void add(int a, int  b){
@@ -33,3 +25,13 @@ class interfacepractice implements inter1,inter2
        
     }
 }
+
+interface inter1{
+    void add(int a, int  b);
+}
+
+interface inter2{
+    void sub(int a, int  b);
+}
+
+
