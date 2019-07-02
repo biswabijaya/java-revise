@@ -1,4 +1,9 @@
-import java.io.*;
+/**
+ * WAP to Implement Overloading.
+ *
+ * @author (Biswabijaya Samal)
+ * @version (02/07/2019)
+ */
 
 class overloading{
 

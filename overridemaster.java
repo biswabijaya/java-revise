@@ -1,9 +1,13 @@
-// implementing overridding
+/**
+ * WAP to Implement Overriding.
+ *
+ * @author (Biswabijaya Samal)
+ * @version (02/07/2019)
+ */
 
-import java.io.*;
 
+//Master Class
 class overridemaster{
-
   public static void main(String[] args) {
     //Create object
     overridemaster m1 = new overridemaster();
@@ -12,7 +16,7 @@ class overridemaster{
     m1.override();
     c1.override();
     m2.override();
-    
+
   }
 
   static void override() {
@@ -28,5 +32,5 @@ class overridechild extends overridemaster {
   static void override() {
     System.out.println("Overridechild Instance Created");
   }
-  
+
 }
